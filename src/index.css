@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 740px) {
+    .active p {
+        @apply text-white bg-blue-300;
+    }
+}
+
+.flex::-webkit-scrollbar {
+    display: none;
+  }
